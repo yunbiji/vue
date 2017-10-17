@@ -3,7 +3,7 @@ import store from '../store'
 import axios from 'axios'
 
 let $axios = axios.create({
-    baseURL: 'http://bpi.shizu.me/', 
+    baseURL: 'http://localhost:8888/', 
     timeout: 10000,
     headers: {
        'Access-Control-Allow-Origin': '*',
